@@ -9,9 +9,16 @@
 <body>
     <div class="alignment">
     <div class="result">
-        <h1>Acerte o numero sorteado!</h1>
+        <h1>Acerte o numero sorteado de 0 a 50!</h1>
         <button type="submit" onclick="numberRandom ()">Iniciar</button>
-        <h2 id="number-drawn"></h2>
+       
+        <div class=" number-drawn-alingnment">
+        <h2 id="number-drawn">Número Sorteado</h2>
+    </div>
+
+    <label for="user-response">Digite seu Número:</label>
+        <input type="text" id="user-response">
+    <button onclick="numberSent()" id="btn-sent">Enviar Número</button>    
     </div>
     </div>
 
