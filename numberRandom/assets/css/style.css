@@ -43,7 +43,7 @@ button:hover {
 }
 
 #number-drawn p {
-    border: 1px solid #0076a3;
+    border: 1px solid black;
     color: rgb(235, 235, 236);
     border-radius: 50%;
     max-width: 42px;
