@@ -109,3 +109,32 @@ form button{
     max-width: 20000px;
     width: 100%;
 }
+table{
+    border-collapse: collapse;
+}
+ tr, td{
+    border: 1px solid #0076a3;
+    padding: 2px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.table-alignment{
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    max-height: 100px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+.primary-color{
+    background-color: #030708;
+    color: white;
+    position: static;
+}
