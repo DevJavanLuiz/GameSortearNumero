@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(102, 101, 101);
+    
+}
+
+.alignment {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top:-200px ;
+}
+
+#result-input{
+    margin-bottom: 20px;
+    font-weight: 400;
+    color:#0076a3;
+}
+.result {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    height: 95%;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 5px 5px 10px  #030708;
+    position: relative;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #0076a3;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 30px 0px 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0075a3a4;
+    color: white;
+}
+
+#number-drawn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#number-drawn p {
+    border: 4px solid #0075a3a4;
+    border-radius: 50%;
+    text-align: center;
+    max-width: 50px;
+    min-width: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    font-size: 31px;
+    margin-top: 10px;
+}
+
+.number-drawn-alingnment {
+    padding: 23px;
+    border-radius: 20px;
+    border: 3px solid #5c93a8;
+    min-width:250px;
+    width:100%;
+    max-width: 350px;
+}
+
+input {
+    margin-top: 40px;
+    border: 1px solid #0076a3;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    max-width: 65px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:focus {
+    box-shadow: 5px 5px 10px #0076a3;
+}
+
+form button{
+    margin:0;
+    margin: 30px 0px;
+    max-width: 350px;
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    border: 3px solid #0076a3;
+}
+.table-alignment {
+    padding: 0px 15px 0px 30px;
+    max-height: 20vh;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+ tr, td{
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 16px;
+    color: #0076a3;
+    min-width: 130px;
+    background-color: #819ea93b;
+
+}
+
+.primary-color{
+    background-color:#0076a3;
+    border: 3px solid #024c6a;
+    color: white;
+}
+
+/* Resposive */
+
+
+@media (max-width: 800px){
+    h1{
+        margin-top: -100px;
+        font-size: 22px;
+    }
+    .result {
+    font-size: 15px;
+}
+button {
+    padding: 7px;
+    margin: 5px 0px 15px 0px;
+}
+
+#number-drawn p {
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.number-drawn-alingnment {
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #5c93a8;
+    width: 85%;
+}
+input {
+    margin-top: 30px;
+    max-width: 50px;
+    font-size: 17px;
+}
+form button{
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.table-alignment {
+    padding: 0px 0px 0px 0px;
+    max-height: 12vh;
+    bottom: 20px;
+}
+ tr, td{
+    padding: 2px;
+    font-size: 14px;
+    min-width: 100px;
+}
+}

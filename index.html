@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="alignment">
+    <div class="result">
+        <h1>Acerte o numero sorteado de 0 a 5!</h1>
+        <button type="submit" id="first-button" onclick="numberRandom ()">Iniciar</button>
+        <h2 id="result-input"></h2>
+        <div class=" number-drawn-alingnment">
+        <h2 id="number-drawn">Número Sorteado</h2>
+    </div>
+    <form action="#">
+    <label for="user-response">Digite seu Número:</label>
+    <input type="text" id="user-response">
+    <button onclick="numberSent()" id="second-button" >Enviar Número</button>    
+    </form> 
+    <div class ="table-alignment">
+        <table>
+        <thead>
+            <tbody id="table-increment">
+                    <tr>
+                        <td class="primary-color">Jogadas</td>
+                        <td class="primary-color">Jogador(a)</td>
+                        <td class="primary-color">Número Escolhido</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+</div>
+</div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
